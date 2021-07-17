@@ -5,6 +5,7 @@
     <AssemblyName>CsvViewer.Modules.ModuleName</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="ModernWpfUis" Version="1.2.0" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
