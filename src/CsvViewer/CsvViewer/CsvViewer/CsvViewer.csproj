@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>CsvViewer</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CsvViewer.Core\CsvViewer.Core.csproj" />
+    <ProjectReference Include="..\Modules\CsvViewer.Modules.ModuleName\CsvViewer.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\CsvViewer.Services.Interfaces\CsvViewer.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\CsvViewer.Services\CsvViewer.Services.csproj" />
+  </ItemGroup>
+</Project>
