@@ -11,7 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CsvViewer.Core\CsvViewer.Core.csproj" />
-    <ProjectReference Include="..\Modules\CsvViewer.Modules.ModuleName\CsvViewer.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Modules\CsvViewer.Modules.CsvOpener\CsvViewer.Modules.CsvOpener.csproj" />
     <ProjectReference Include="..\Services\CsvViewer.Services.Interfaces\CsvViewer.Services.Interfaces.csproj" />
     <ProjectReference Include="..\Services\CsvViewer.Services\CsvViewer.Services.csproj" />
   </ItemGroup>

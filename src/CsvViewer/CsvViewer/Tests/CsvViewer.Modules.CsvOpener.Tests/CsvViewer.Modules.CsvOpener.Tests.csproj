@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Modules\CsvViewer.Modules.ModuleName\CsvViewer.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\..\Modules\CsvViewer.Modules.CsvOpener\CsvViewer.Modules.CsvOpener.csproj" />
   </ItemGroup>
 
 </Project>
