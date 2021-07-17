@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31507.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A57FFF9B-89A6-46FF-AE56-CA111DAB43E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvViewer.Modules.ModuleName.Tests", "CsvViewer\Tests\CsvViewer.Modules.ModuleName.Tests\CsvViewer.Modules.ModuleName.Tests.csproj", "{62189A00-F000-4787-8F2B-6DC111B72818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvViewer.Modules.CsvOpener.Tests", "CsvViewer\Tests\CsvViewer.Modules.CsvOpener.Tests\CsvViewer.Modules.CsvOpener.Tests.csproj", "{62189A00-F000-4787-8F2B-6DC111B72818}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9ED98721-8B77-44E2-A92D-F1250B45278C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvViewer.Modules.ModuleName", "CsvViewer\Modules\CsvViewer.Modules.ModuleName\CsvViewer.Modules.ModuleName.csproj", "{CDCD4CDD-A126-4ECC-BD94-B76965DF669A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvViewer.Modules.CsvOpener", "CsvViewer\Modules\CsvViewer.Modules.CsvOpener\CsvViewer.Modules.CsvOpener.csproj", "{CDCD4CDD-A126-4ECC-BD94-B76965DF669A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{46362B12-D48B-4008-B7E0-98CF958145B1}"
 EndProject

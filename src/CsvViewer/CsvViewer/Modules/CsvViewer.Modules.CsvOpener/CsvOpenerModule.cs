@@ -1,16 +1,16 @@
 ﻿using CsvViewer.Core;
-using CsvViewer.Modules.ModuleName.Views;
+using CsvViewer.Modules.CsvOpener.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 
-namespace CsvViewer.Modules.ModuleName
+namespace CsvViewer.Modules.CsvOpener
 {
-    public class ModuleNameModule : IModule
+    public class CsvOpenerModule : IModule
     {
         private readonly IRegionManager _regionManager;
 
-        public ModuleNameModule(IRegionManager regionManager)
+        public CsvOpenerModule(IRegionManager regionManager)
         {
             _regionManager = regionManager;
         }

@@ -1,4 +1,4 @@
-﻿using CsvViewer.Modules.ModuleName.ViewModels;
+﻿using CsvViewer.Modules.CsvOpenerModule.ViewModels;
 using CsvViewer.Services.Interfaces;
 using Moq;
 using Prism.Regions;

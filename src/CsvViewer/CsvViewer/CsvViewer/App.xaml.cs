@@ -1,4 +1,4 @@
-﻿using CsvViewer.Modules.ModuleName;
+﻿using CsvViewer.Modules.CsvOpener;
 using CsvViewer.Services;
 using CsvViewer.Services.Interfaces;
 using CsvViewer.Views;
@@ -25,7 +25,7 @@ namespace CsvViewer
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
-            moduleCatalog.AddModule<ModuleNameModule>();
+            moduleCatalog.AddModule<CsvOpenerModule>();
         }
     }
 }

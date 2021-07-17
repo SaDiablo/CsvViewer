@@ -2,7 +2,7 @@
 using CsvViewer.Services.Interfaces;
 using Prism.Regions;
 
-namespace CsvViewer.Modules.ModuleName.ViewModels
+namespace CsvViewer.Modules.CsvOpener.ViewModels
 {
     public class ViewAViewModel : RegionViewModelBase
     {
