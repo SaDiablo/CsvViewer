@@ -9,6 +9,7 @@
     Width="525"
     Height="350"
     prism:ViewModelLocator.AutoWireViewModel="True"
+    ui:ThemeManager.RequestedTheme="Dark"
     ui:WindowHelper.UseModernWindowStyle="True">
     <Grid>
         <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" />
